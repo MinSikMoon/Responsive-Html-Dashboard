@@ -47,6 +47,7 @@ body {
     width: 100%;
     list-style: none;
     border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .navigation ul li:hover {
@@ -89,7 +90,7 @@ body {
     display: block;
     padding: 0 10px;
     height: 60px;
-    line-height: 60px;
+    line-height: 55px;
     text-align: start;
     white-space: nowrap;
 }
