@@ -173,4 +173,6 @@ body {
     height: 40px;
     border-radius: 40px;
     padding: 5px 20px;
+    outline: none;
+    border: 1px solid var(--black2);
 }
