@@ -176,6 +176,7 @@ body {
     padding-left: 30px;
     outline: none;
     border: 1px solid var(--black2);
+    font-size: 1.1em;
 }
 
 .search label ion-icon{
