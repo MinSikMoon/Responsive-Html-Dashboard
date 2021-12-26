@@ -90,9 +90,11 @@
         let list = document.querySelectorAll('.navigation li');
         function activeLink() {
             list.forEach(() =>
-                item.classList.remove(''));
-
+                item.classList.remove('hovered'));
+                item.classList.add('hovered');
         }
+        list.forEach((item) => 
+        item.addEventListener('mouseover', activeLink));
 
     </script>
 </body>
