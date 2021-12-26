@@ -135,3 +135,8 @@ body {
     background: var(--white);
     transition: 0.5s;
 }
+
+.topbar{
+    width: 100%;
+    
+}
