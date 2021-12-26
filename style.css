@@ -126,3 +126,7 @@ body {
     pointer-events: none;
 }
 
+/* main */
+.main{
+    position: absolute;
+}
