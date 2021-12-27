@@ -232,9 +232,15 @@ body {
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
 
-.cardBox .card .numbers{
+.cardBox .card .numbers {
     position: relative;
     font-weight: 500;
     font-size: 2.5em;
     color: var(--blue);
+}
+
+.cardBox .card .cardName {
+    color: var(--black2);
+    font-size: 1.1em;
+    margin-top: 5px;
 }
