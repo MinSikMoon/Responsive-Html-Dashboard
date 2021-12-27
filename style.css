@@ -225,6 +225,8 @@ body {
     position: relative;
     background: var(--white);
     padding: 30px;
-    border-radius: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
