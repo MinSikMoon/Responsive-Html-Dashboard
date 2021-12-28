@@ -277,4 +277,11 @@ body {
     background: var(--white);
     padding: 20px;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.cardHeader{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
