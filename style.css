@@ -244,6 +244,7 @@ body {
     font-size: 1.1em;
     margin-top: 5px;
 }
+
 .cardBox .card .iconBx {
     font-size: 3.5em;
     color: var(--black2);
@@ -253,8 +254,27 @@ body {
     background: var(--blue);
 }
 
-.cardBox .card:hover .numbers, 
+.cardBox .card:hover .numbers,
 .cardBox .card:hover .cardName,
 .cardBox .card:hover .iconBx {
     color: var(--white);
+}
+
+.details {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.details .recentOrders{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
