@@ -316,7 +316,12 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.details .recentOrders table tr:hover {
+.details .recentOrders table tr:last-child {
+    color: var(--black1);
+    border-bottom: none;
+}
+
+.details .recentOrders table tbody tr:hover {
     background: var(--blue);
     color: var(--white);
 }
