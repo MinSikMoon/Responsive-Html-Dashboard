@@ -325,3 +325,7 @@ body {
     background: var(--blue);
     color: var(--white);
 }
+
+.details .recentOrders table tr td {
+    padding: 10px;
+}
