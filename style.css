@@ -329,3 +329,8 @@ body {
 .details .recentOrders table tr td {
     padding: 10px;
 }
+
+.details .recentOrders table tr td:last-child {
+    padding: 10px;
+    text-align: end;
+}
