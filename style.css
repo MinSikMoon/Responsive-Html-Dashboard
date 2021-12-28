@@ -297,4 +297,5 @@ body {
     background: var(--blue);
     text-decoration: none;
     color: var(--white);
+    border-radius: 6px;
 }
