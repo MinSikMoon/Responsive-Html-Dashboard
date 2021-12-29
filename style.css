@@ -407,3 +407,8 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.recentCustomers table tr:hover{
+    background: var(--blue);
+    color: var(--white);
+}
