@@ -422,3 +422,12 @@ body {
     font-weight: 500;
     line-height: 1.2em;
 }
+
+.recentCustomers table tr td h4 span{
+    font-size: 0.9em;
+    color: var(--black2)
+}
+
+.recentCustomers table tr:hover td h4 span{
+    color: var(--white)
+}
