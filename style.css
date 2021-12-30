@@ -434,17 +434,26 @@ body {
 
 /* Responsive Style */
 @media (max-width: 991px) {
-    .navigation {
+    .navigation{
+        left: 0;
         width: 80px;
     }
 
     .main {
-        width: 100%;
-        left: 0;
-    }
-
-    .main.active {
         width: calc(100%-80px);
         left: 80px;
     }
+
+    .navigation.active {
+        left: 0;
+        left: -300px;
+    }
+
+    .main.active {
+        width: 100%;
+        left: 0;
+    }
+   
+   
+
 }
