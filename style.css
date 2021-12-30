@@ -453,6 +453,17 @@ body {
         width: 100%;
         left: 0;
     }
+
+    .main .topbar{
+        width: calc(100vw - 80px);
+        padding-right: 20px;
+        transition: 0.5s;
+    }
+
+    .main.active .topbar{
+        width: 100vw;
+        transition: 0.5s;
+    }
    
    
 
