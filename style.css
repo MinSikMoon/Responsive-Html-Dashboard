@@ -465,6 +465,12 @@ body {
         transition: 0.4s;
     }
    
+    .cardBox{
+        width: calc(100vw - 80px);
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 5vw;
+        transition: 0.5s;
+    }
    
 
 }
