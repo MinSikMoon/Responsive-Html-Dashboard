@@ -133,7 +133,7 @@ body {
 /* main */
 .main {
     position: absolute;
-    width: calc(100% - 300px);
+    width: calc(100vw - 300px);
     left: 300px;
     min-height: 100vh;
     background: var(--white);
@@ -472,5 +472,10 @@ body {
         transition: 0.5s;
     }
     
-    /*  */
+    /* smartphone */
+    @media (max-width: 768px){
+        .details{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
 }
