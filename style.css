@@ -434,5 +434,7 @@ body {
 
 /* Responsive Style */
 @media (max-width: 991px) {
-    
+    .navigation{
+        left: -300px;
+    }
 }
